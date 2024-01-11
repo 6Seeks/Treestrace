@@ -9,7 +9,7 @@ Treestrace can help you fast collect IPv6 router interface address. It works lik
 
 ## How to use?
 
-I write it in a single golang file with relatively few lines of code. Users can customize the running script `run.sh` to set entire budget (how many packets do you want to use in this probing process, $10^9$ or $10^10$ or more?)
+I write it in a single golang file with relatively few lines of code. Users can customize the running script `run.sh` to set entire budget (how many packets do you want to use in this probing process, $10^9$ or $10^{10}$ or more?)
 
 But not too large, because Treestrace also follows real-world operating rules. As a scanner, its capability is limited to sending 100,000 packets per second to the internet. Our endeavor is focused on enhancing the value and yield of these limited detection packets. So, it is important not to expect it to aggressively scan the entire IPv6 network's router interface addresses in a very short time.
 
